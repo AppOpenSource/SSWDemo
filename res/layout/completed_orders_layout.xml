@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/community_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_layout_height"
+        android:background="@drawable/top_bg" >
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="@dimen/title_layout_height"
+            android:layout_height="@dimen/title_layout_height"
+            android:background="@color/transparent"
+            android:src="@drawable/back_bg" />
+
+        <TextView
+            style="@style/title_font"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/title_layout_height"
+            android:layout_toRightOf="@+id/back_btn"
+            android:text="历史订单" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginRight="@dimen/home_page_margin"
+                android:background="@drawable/dingdan_bg"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/dingdanhao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="订单编号："
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <TextView
+                    android:id="@+id/dingdanhao_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/dingdanhao"
+                    android:text="604969890"
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <TextView
+                    android:id="@+id/dingdanjiner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dingdanhao"
+                    android:text="订单金额："
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <TextView
+                    android:id="@+id/dingdanjiner_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dingdanhao"
+                    android:layout_toRightOf="@id/dingdanjiner"
+                    android:text="20129元"
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <TextView
+                    android:id="@+id/xiadanshijian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dingdanjiner"
+                    android:text="下单时间："
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <TextView
+                    android:id="@+id/xiadanshijian_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dingdanjiner"
+                    android:layout_toRightOf="@id/xiadanshijian"
+                    android:text="2013-5-25 16:19:12"
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <View
+                    android:id="@+id/xian"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_below="@id/xiadanshijian"
+                    android:layout_marginTop="3dip"
+                    android:background="@color/home_text_post_info_2" />
+
+                <ImageView
+                    android:id="@+id/dingdan_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/xian"
+                    android:layout_marginTop="@dimen/home_page_padding"
+                    android:background="@drawable/bacy" />
+
+                <TextView
+                    android:id="@+id/dingdanmiaoshu_text"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/xian"
+                    android:layout_marginTop="@dimen/home_page_padding"
+                    android:layout_toRightOf="@id/dingdan_img"
+                    android:paddingLeft="@dimen/home_page_padding"
+                    android:text="索罗门SOLOMO自行车 全碳顶碳顶顶顶顶路赛概念车"
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginRight="@dimen/home_page_margin"
+                android:background="@drawable/dingdan_bg"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/dingdanhao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="订单编号："
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <TextView
+                    android:id="@+id/dingdanhao_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/dingdanhao"
+                    android:text="604969890"
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <TextView
+                    android:id="@+id/dingdanjiner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dingdanhao"
+                    android:text="订单金额："
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <TextView
+                    android:id="@+id/dingdanjiner_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dingdanhao"
+                    android:layout_toRightOf="@id/dingdanjiner"
+                    android:text="20129元"
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <TextView
+                    android:id="@+id/xiadanshijian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dingdanjiner"
+                    android:text="下单时间："
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <TextView
+                    android:id="@+id/xiadanshijian_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dingdanjiner"
+                    android:layout_toRightOf="@id/xiadanshijian"
+                    android:text="2013-5-25 16:19:12"
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+
+                <View
+                    android:id="@+id/xian"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_below="@id/xiadanshijian"
+                    android:layout_marginTop="3dip"
+                    android:background="@color/home_text_post_info_2" />
+
+                <ImageView
+                    android:id="@+id/dingdan_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/xian"
+                    android:layout_marginTop="@dimen/home_page_padding"
+                    android:background="@drawable/bacy" />
+
+                <TextView
+                    android:id="@+id/dingdanmiaoshu_text"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/xian"
+                    android:layout_marginTop="@dimen/home_page_padding"
+                    android:layout_toRightOf="@id/dingdan_img"
+                    android:paddingLeft="@dimen/home_page_padding"
+                    android:text="索罗门SOLOMO自行车 全碳顶碳顶顶顶顶路赛概念车"
+                    android:textColor="@color/home_text_post_info"
+                    android:textSize="@dimen/home_text_font" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

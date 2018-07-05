@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- wsc strat -->
+    <color name="red">#FF0000 </color>
+    <color name="white">#FFFFFF</color>
+     <color name="grays">#EDEDED</color>
+    <color name="black">#000000</color>
+    <color name="blue">#073888</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="gray">#808080</color>
+    <color name="purple">#800080</color>
+    <color name="green">#008000</color>
+    <color name="dimgray">#696969</color>
+    <color name="deepblue">#214263</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#b89766</color>
+    <color name="orange">#b89766</color>
+    <color name="oranges">#f79225</color>
+    <color name="welcome_text_color">#717171</color>
+    <color name="welcome_text_color1">#8c5900</color>
+    <color name="welcome_liner_color1">#F5F3F4</color>
+     <color name="tab_text_unchecked">#015b86</color>
+     <color name="tab_text_uncheckeds">#000000</color>
+    <!-- wsc end -->
+    <!-- lhb strat-->
+    <color name="lightgray">#5B5B5B</color>
+    <!-- lhb end  -->
+
+    <color name="home_text_post_info">#8a765a</color>
+    <color name="home_text_post_info_2">#c1a886</color>
+    <color name="home_tab_text_unchecked">#9C9C9C</color>
+    <color name="home_tab_text_checked">#ffffff</color>
+    <color name="home_tab_text_checkeds">#8c5900</color>
+    <color name="home_grid_text">#5B5B5B</color>
+    <color name="submit_order_title">#5B5B5B</color>
+    <color name="submit_order_content">#999999</color>
+    <color name="submit_order_border">#aaaaaa</color>
+    <color name="submit_order_addr">#88775b</color>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/community_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_layout_height"
+        android:background="@drawable/top_bg" >
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="@dimen/title_layout_height"
+            android:layout_height="@dimen/title_layout_height"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:src="@drawable/back_bg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/title_font"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/title_layout_height"
+            android:layout_toRightOf="@+id/back_btn"
+            android:text="账户信息" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <include layout="@layout/activity_account_info" />
+    </ScrollView>
+
+</LinearLayout>

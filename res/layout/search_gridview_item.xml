@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+   >
+    <TextView 
+        android:id="@+id/search_name"
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:background="#b89766"
+        android:textSize="18sp"
+        android:text="餐饮"
+        android:padding="5dip"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />  
+        
+    
+</LinearLayout>

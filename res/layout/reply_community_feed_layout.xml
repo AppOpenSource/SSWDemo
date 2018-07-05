@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/community_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_layout_height"
+        android:background="@drawable/top_bg" >
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="@dimen/title_layout_height"
+            android:layout_height="@dimen/title_layout_height"
+            android:background="@color/transparent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_bg" />
+
+        <TextView
+            style="@style/title_font"
+            android:layout_marginRight="@dimen/title_layout_height"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/back_btn"
+            android:text="动态详情" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_layout"
+        android:background="#FFF7E5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/avatar_img"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/user_img" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/username_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8B755A"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/input_layout"
+        android:layout_below="@+id/head_layout"
+        android:background="#e1e1e1"
+        android:divider="#d9e0ea"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none" />
+
+    <RelativeLayout
+        android:id="@+id/input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/input_bar_bg" >
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="发送"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/body_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/send_btn"
+            android:ems="10"
+            android:maxHeight="80dp" >
+        </EditText>
+    </RelativeLayout>
+
+</RelativeLayout>

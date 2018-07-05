@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/community_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_layout_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bg"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="@dimen/title_layout_height"
+            android:layout_height="@dimen/title_layout_height"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:src="@drawable/back_bg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/title_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/submit_btn"
+            android:layout_toRightOf="@+id/back_btn"
+            android:text="编辑留言信息" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_background"
+            android:text="确认"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_submit_order"
+        android:orientation="vertical"
+        android:padding="10dp" >
+		<EditText
+            android:id="@+id/leave_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minLines="5"
+            android:hint="附言"
+            android:gravity="left|top"
+            android:background="@android:color/transparent"
+          />
+       
+    </LinearLayout>
+
+<!--     <Button
+        android:id="@+id/confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="确定"
+        android:textColor="@color/white" /> -->
+
+</LinearLayout>

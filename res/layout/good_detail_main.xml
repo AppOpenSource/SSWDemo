@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.sswdemo.views.GoodOrderView
+        android:id="@+id/refreshview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#77aaaa" >
+        
+	    <RelativeLayout
+	        android:id="@+id/title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:background="@drawable/top_bg"
+	        android:gravity="center" >
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/mila_msg"
+	            android:src="@drawable/message_img" />
+	    </RelativeLayout>
+	    
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FAEBD7" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/feature_guide_0"
+                    android:text="one"
+                    android:textColor="#ffccee" />
+
+                <include
+                    android:id="@+id/theview"
+                    layout="@layout/deal_buy_item" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:paddingTop="5dip"
+                    android:text="粥面故事" 
+                    android:textColor="@color/black"
+                    android:textSize="16dip"
+                    />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:textColor="@color/black"
+                    android:text="仅售49元，价值77元特色麻辣香锅超值双人套餐！27店通用！专注中式传统餐饮，弘扬民族饮食..." 
+                    android:textSize="13dip"
+                />
+                
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:paddingBottom="5dip"                    
+                    android:orientation="horizontal"
+                    >
+                   	<TextView 
+                   	    android:layout_width="wrap_content"
+                   	    android:layout_height="wrap_content"
+                   	    android:drawableLeft="@drawable/address_img"
+                   	    android:text="随时退款"
+						android:textColor="@color/black"
+                   	    />
+                  	<TextView 
+                   	    android:layout_width="wrap_content"
+                   	    android:layout_height="wrap_content"
+                   	    android:drawableLeft="@drawable/address_img"
+                   	    android:text="过期退款"
+	                    android:textColor="@color/black"                   	    
+	                    android:paddingLeft="30dip"
+                   	    />
+                   	
+                </LinearLayout>
+                
+             	<com.sswdemo.views.NoScrollListView
+	                android:id="@+id/list_view_0"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:cacheColorHint="#00000000"
+	                android:divider="@null"
+	                android:paddingLeft="15dip"
+	                android:paddingRight="15dip"
+	                android:dividerHeight="0dp"
+	                android:fadingEdge="none" />
+
+                <com.sswdemo.views.NoScrollListView
+	                android:id="@+id/list_view_1"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:cacheColorHint="#00000000"
+	                android:divider="@null"
+	                android:paddingLeft="15dip"
+	                android:paddingRight="15dip"
+					android:paddingTop="15dp"
+	                android:dividerHeight="0dp"
+	                android:fadingEdge="none" />
+                
+                <TextView
+                    android:id="@+id/taocan_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/list_mid_nor"
+                    android:textSize="18dip"
+                    android:drawableLeft="@drawable/merchant_bg"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/taocan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+  	                android:layout_marginLeft="15dip"
+	                android:layout_marginRight="15dip"
+					android:background="@drawable/list_mid_nor"
+                    android:textColor="@color/black" />
+
+          		<com.sswdemo.views.NoScrollListView
+	                android:id="@+id/list_view_2"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:cacheColorHint="#00000000"
+    	            android:paddingLeft="15dip"
+	                android:paddingRight="15dip"
+	                android:paddingTop="15dp"
+	                android:divider="@null"
+	                android:dividerHeight="0dp"
+	                android:fadingEdge="none" />
+            
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:paddingTop="5dip"
+                    android:background="#FAEBD7"
+                    android:text="支持随时退" />
+            </LinearLayout>
+        </ScrollView>
+    </com.sswdemo.views.GoodOrderView>
+
+    <include
+        android:id="@+id/theviewstay"
+        layout="@layout/deal_buy_item_down"
+        android:visibility="gone" 
+        />
+
+</RelativeLayout>

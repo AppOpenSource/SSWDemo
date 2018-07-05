@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/community_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_layout_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bg"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="@dimen/title_layout_height"
+            android:layout_height="@dimen/title_layout_height"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:src="@drawable/back_bg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/title_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/submit_btn"
+            android:layout_toRightOf="@+id/back_btn"
+            android:text="填写订单" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_background"
+            android:text="取消"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/content_sv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottom_linear"
+        android:layout_below="@id/title_relative"
+        android:layout_margin="10dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_submit_order"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="收货人信息"
+                        android:textColor="@color/submit_order_title" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#aaaaaa" />
+
+                <RelativeLayout
+                    android:id="@+id/sumit_order_addr_relative"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp" >
+
+                    <TextView
+                        android:id="@+id/submit_order_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="刘小二"
+                        android:textColor="@color/submit_order_addr" />
+
+                    <TextView
+                        android:id="@+id/submit_order_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/submit_order_name"
+                        android:paddingLeft="15dp"
+                        android:text="010-5689658"
+                        android:textColor="@color/submit_order_addr" />
+
+                    <TextView
+                        android:id="@+id/submit_order_mobile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/submit_order_phone"
+                        android:paddingLeft="15dp"
+                        android:text="15877845784"
+                        android:textColor="@color/submit_order_addr" />
+
+                    <TextView
+                        android:id="@+id/submit_order_addr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/submit_order_name"
+                        android:paddingTop="10dp"
+                        android:text="北京市海淀区大屯路"
+                        android:textColor="@color/submit_order_addr" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_arrow_more" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!--
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_submit_order"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/arrived_time_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收货时间"
+                    android:textColor="@color/submit_order_title" />
+
+                <TextView
+                    android:id="@+id/arrived_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/arrived_time_title"
+                    android:paddingLeft="15dp"
+                    android:text="20分钟"
+                    android:textColor="@color/submit_order_content" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_arrow_more" />
+            </RelativeLayout>
+            -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_submit_order"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <TextView
+                        android:id="@+id/fapiaoxinxi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="发票信息:"
+                        android:textColor="@color/submit_order_title" />
+
+                    <RadioGroup
+                        android:id="@+id/fapiao_rg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/fapiaoxinxi"
+                        android:orientation="horizontal"
+                        android:paddingLeft="5dp" >
+
+                        <RadioButton
+                            android:id="@+id/radio_button0_nofa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/icon_submit_order_rb"
+                            android:checked="true"
+                            android:paddingLeft="25dp"
+                            android:text="不开发票"
+                            android:textColor="@color/submit_order_title"
+                            android:textSize="12sp" />
+
+                        <RadioButton
+                            android:id="@+id/radio_button1_yesfa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:button="@drawable/icon_submit_order_rb"
+                            android:paddingLeft="25dp"
+                            android:text="普通发票"
+                            android:textColor="@color/submit_order_title"
+                            android:textSize="12sp" />
+                    </RadioGroup>
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/submit_order_border"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/invoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/type_of_invoice_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发票类型:"
+                        android:textColor="@color/submit_order_content" />
+
+                    <TextView
+                        android:id="@+id/type_of_invoice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/type_of_invoice_title"
+                        android:paddingLeft="15dp"
+                        android:text="普通发票"
+                        android:textColor="@color/submit_order_content" />
+
+                    <TextView
+                        android:id="@+id/title_of_invoice_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/type_of_invoice_title"
+                        android:paddingTop="5dp"
+                        android:text="发票抬头:"
+                        android:textColor="@color/submit_order_content" />
+
+                    <TextView
+                        android:id="@+id/title_of_invoice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/type_of_invoice_title"
+                        android:layout_toRightOf="@id/title_of_invoice_title"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:textColor="@color/submit_order_content" />
+
+                    <TextView
+                        android:id="@+id/confirm_before_deliver_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title_of_invoice_title"
+                        android:paddingTop="5dp"
+                        android:text="发票内容:"
+                        android:textColor="@color/submit_order_content" />
+
+                    <TextView
+                        android:id="@+id/content_of_invoice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title_of_invoice_title"
+                        android:layout_toRightOf="@id/confirm_before_deliver_title"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp"
+                        android:text="非图书商品+说明"
+                        android:textColor="@color/submit_order_content" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_arrow_more" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/payfor_relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_submit_order"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/arrived_time_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付方式"
+                    android:textColor="@color/submit_order_title" />
+
+                <TextView
+                    android:id="@+id/payfor_tex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/arrived_time_title"
+                    android:paddingLeft="15dp"
+                    android:text="货到付款"
+                    android:textColor="@color/submit_order_content" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_arrow_more" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_submit_order"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/deliver_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="配送方式:"
+                    android:textColor="@color/submit_order_title" />
+
+                <RadioGroup
+                    android:id="@+id/peisongfangshi_rg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/deliver_title"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp" >
+
+                    <RadioButton
+                        android:id="@+id/radio_button0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/icon_submit_order_rb"
+                        android:checked="true"
+                        android:paddingLeft="25dp"
+                        android:text="送货上门"
+                        android:textColor="@color/submit_order_title"
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:button="@drawable/icon_submit_order_rb"
+                        android:paddingLeft="25dp"
+                        android:text="用户自取"
+                        android:textColor="@color/submit_order_title"
+                        android:textSize="12sp" />
+                </RadioGroup>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/remark_relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_submit_order" >
+
+                <RelativeLayout
+                    android:id="@+id/dingdan_relative"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="订单附言"
+                        android:textColor="@color/submit_order_title" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/dingdan_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_below="@id/dingdan_relative"
+                    android:background="#aaaaaa" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dingdan_line"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/remark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="不要给我拿错了"
+                        android:textColor="@color/submit_order_content" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/icon_arrow_more" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@id/bottom_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_submit_order_bottom"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/total_price_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="应付总额:"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/submit_order"
+                android:layout_toRightOf="@id/total_price_title"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/red" />
+
+            <Button
+                android:id="@id/submit_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/button_background"
+                android:text="提交订单"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

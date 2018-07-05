@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" 
+    android:orientation="vertical">
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_bg" >
+    <ImageButton
+        android:id="@+id/back_btn" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_bg" />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+        android:background="@drawable/search_text_img"/>
+   </RelativeLayout>
+   <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_margin="5dip" >
+    <EditText 
+        android:id="@+id/search_edit"
+        android:layout_width="260dip"
+        android:layout_height="30dip"
+        android:hint="请输入要搜索的关键字"
+        android:background="@drawable/search_edit_bg"
+        />
+    <Button 
+        android:layout_toRightOf="@id/search_edit"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="搜索"
+        android:padding="3dip"
+        android:background="@drawable/search1_btn"
+        
+        />
+    </RelativeLayout>
+    <GridView 
+        android:id="@+id/search_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="3" 
+        android:verticalSpacing="10dp"  
+        android:horizontalSpacing="10dip" 
+        android:gravity="center"
+        />
+</LinearLayout>

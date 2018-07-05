@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/community_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_layout_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bg"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+      <!--   <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="@dimen/title_layout_height"
+            android:layout_height="@dimen/title_layout_height"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:src="@drawable/back_bg" /> -->
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/title_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="提交成功" />
+
+        <Button
+            android:id="@+id/finish_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_background"
+            android:text="完成"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/submit_order_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="订单提交成功!"
+        android:textColor="@color/green"
+        android:textSize="28sp" />
+
+   <!--  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_submit_order"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/order_no_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单号码:"
+            android:textColor="@color/submit_order_title" />
+
+        <TextView
+            android:id="@+id/order_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/order_no_title"
+            android:text="65212235865558555"
+            android:textColor="@color/submit_order_title" />
+
+        <View
+            android:id="@+id/view_title1"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/order_no_title"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/submit_order_border" />
+
+        <TextView
+            android:id="@+id/order_price_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_title1"
+            android:text="订单金额:"
+            android:textColor="@color/submit_order_title" />
+
+        <TextView
+            android:id="@+id/order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_title1"
+            android:layout_toRightOf="@id/order_price_title"
+            android:text="98.00"
+            android:textColor="@color/submit_order_title" />
+
+        <View
+            android:id="@+id/view_title2"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/order_price_title"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/submit_order_border" />
+
+        <TextView
+            android:id="@+id/way_of_pay_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_title2"
+            android:text="支付方式:"
+            android:textColor="@color/submit_order_title" />
+
+        <TextView
+            android:id="@+id/way_of_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_title2"
+            android:layout_toRightOf="@id/way_of_pay_title"
+            android:text="货到付款"
+            android:textColor="@color/submit_order_title" />
+    </RelativeLayout> -->
+	<TextView
+            android:id="@+id/way_of_pay_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_title2"
+            android:padding="10dp"
+            android:text="您的订单正在处理中,发货后订单内容会显示承运人联系方式,如有必要您可以联系对方."
+            android:textColor="@color/submit_order_title" />
+	
+	<Button
+        android:id="@+id/order"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="查看订单"
+        android:textColor="@color/white" />
+</LinearLayout>

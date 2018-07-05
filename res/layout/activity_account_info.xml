@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/community_bg">
+    
+   <LinearLayout 
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/wo_item_bg"
+        android:orientation="vertical">
+       <com.sswdemo.views.AccountItemView
+           android:id="@+id/username_layout"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:padding="5dp" />
+       <com.sswdemo.views.AccountItemView
+           android:id="@+id/telephone_layout"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:padding="5dp" />
+       <com.sswdemo.views.AccountItemView
+           android:id="@+id/email_layout"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+            android:padding="5dp" />
+       <com.sswdemo.views.AccountItemView
+           android:id="@+id/address_layout"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:padding="5dp" />
+       <com.sswdemo.views.AccountItemView
+           android:id="@+id/truename_layout"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:padding="5dp" />
+       <RadioGroup 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="性别"
+               android:textSize="15sp" 
+               android:layout_marginLeft="20dp"
+               android:textColor="#717171"/>
+           <RadioButton 
+               android:button="@null" 
+               android:id="@+id/nan_radio"
+               android:layout_marginLeft="20dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/radio"/>
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="男"
+                android:layout_marginLeft="5dp"
+               android:textColor="#717171" />
+            <RadioButton
+               android:button="@null"  
+               android:id="@+id/nv_radio"
+               android:layout_marginLeft="20dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/radio"/>
+             <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="女"
+               android:layout_marginLeft="5dp"
+               android:textColor="#717171" />
+       </RadioGroup>
+   </LinearLayout>
+ <!--   <Button 
+       android:id="@+id/commit"
+       android:layout_below="@id/top"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="提交"
+       android:textColor="@color/white"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:background="@drawable/button_background"
+       /> -->
+</RelativeLayout>

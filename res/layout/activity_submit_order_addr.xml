@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/community_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_layout_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bg"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="@dimen/title_layout_height"
+            android:layout_height="@dimen/title_layout_height"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:src="@drawable/back_bg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/title_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/submit_btn"
+            android:layout_toRightOf="@+id/back_btn"
+            android:text="编辑收货人" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_background"
+            android:text="确认"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_submit_order"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*" >
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/consignee_title"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="收货人:"
+                    android:textColor="@color/submit_order_title" />
+
+                <EditText
+                    android:id="@+id/consignee"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/consignee"
+                    android:layout_weight="7"
+                    android:textColor="@color/submit_order_title" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/addr_title"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="详细地址:"
+                    android:textColor="@color/submit_order_title" />
+
+                <EditText
+                    android:id="@+id/addr"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/consignee"
+                    android:layout_weight="7"
+                    android:textColor="@color/submit_order_title" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/mobile_title"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="手机号码:"
+                    android:textColor="@color/submit_order_title" />
+
+                <EditText
+                    android:id="@+id/mobile"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/consignee"
+                    android:layout_weight="7"
+                    android:inputType="phone"
+                    android:textColor="@color/submit_order_title" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/phone_title"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="固定号码:"
+                    android:textColor="@color/submit_order_title" />
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/consignee"
+                    android:layout_weight="7"
+                    android:inputType="phone"
+                    android:textColor="@color/submit_order_title" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+  <!--   <Button
+        android:id="@+id/confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:text="确定"
+        android:textColor="@color/white" /> -->
+
+</LinearLayout>
