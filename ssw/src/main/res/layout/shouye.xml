@@ -31,7 +31,7 @@
             android:layout_weight="1"
             android:padding="@dimen/home_page_padding" >
 
-            <com.sswdemo.views.ViewPager
+            <com.abt.ssw.views.ViewPager
                 android:id="@+id/guidePages"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />
@@ -60,7 +60,7 @@
             android:layout_marginRight="5dp"
             android:background="@drawable/dididi" >
 
-            <com.sswdemo.views.TagsGridView
+            <com.abt.ssw.views.TagsGridView
                 android:id="@+id/shouye_gridview"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

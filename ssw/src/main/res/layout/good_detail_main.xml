@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <com.sswdemo.views.GoodOrderView
+    <com.abt.ssw.views.GoodOrderView
         android:id="@+id/refreshview"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
                    	
                 </LinearLayout>
                 
-             	<com.sswdemo.views.NoScrollListView
+             	<com.abt.ssw.views.NoScrollListView
 	                android:id="@+id/list_view_0"
 	                android:layout_width="fill_parent"
 	                android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
 	                android:dividerHeight="0dp"
 	                android:fadingEdge="none" />
 
-                <com.sswdemo.views.NoScrollListView
+                <com.abt.ssw.views.NoScrollListView
 	                android:id="@+id/list_view_1"
 	                android:layout_width="fill_parent"
 	                android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
 					android:background="@drawable/list_mid_nor"
                     android:textColor="@color/black" />
 
-          		<com.sswdemo.views.NoScrollListView
+          		<com.abt.ssw.views.NoScrollListView
 	                android:id="@+id/list_view_2"
 	                android:layout_width="fill_parent"
 	                android:layout_height="wrap_content"
@@ -159,7 +159,7 @@
                     android:text="支持随时退" />
             </LinearLayout>
         </ScrollView>
-    </com.sswdemo.views.GoodOrderView>
+    </com.abt.ssw.views.GoodOrderView>
 
     <include
         android:id="@+id/theviewstay"

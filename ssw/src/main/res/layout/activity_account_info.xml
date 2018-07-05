@@ -12,27 +12,27 @@
         android:padding="10dp"
         android:background="@drawable/wo_item_bg"
         android:orientation="vertical">
-       <com.sswdemo.views.AccountItemView
+       <com.abt.ssw.views.AccountItemView
            android:id="@+id/username_layout"
            android:layout_width="fill_parent"
            android:layout_height="wrap_content"
            android:padding="5dp" />
-       <com.sswdemo.views.AccountItemView
+       <com.abt.ssw.views.AccountItemView
            android:id="@+id/telephone_layout"
            android:layout_width="fill_parent"
            android:layout_height="wrap_content"
            android:padding="5dp" />
-       <com.sswdemo.views.AccountItemView
+       <com.abt.ssw.views.AccountItemView
            android:id="@+id/email_layout"
            android:layout_width="fill_parent"
            android:layout_height="wrap_content"
             android:padding="5dp" />
-       <com.sswdemo.views.AccountItemView
+       <com.abt.ssw.views.AccountItemView
            android:id="@+id/address_layout"
            android:layout_width="fill_parent"
            android:layout_height="wrap_content"
            android:padding="5dp" />
-       <com.sswdemo.views.AccountItemView
+       <com.abt.ssw.views.AccountItemView
            android:id="@+id/truename_layout"
            android:layout_width="fill_parent"
            android:layout_height="wrap_content"

@@ -27,7 +27,7 @@
             android:orientation="vertical"
             android:padding="10dp" >
 
-            <com.sswdemo.views.NoScrollListView
+            <com.abt.ssw.views.NoScrollListView
                 android:id="@+id/list_view_1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
                 android:dividerHeight="0dp"
                 android:fadingEdge="none" />
 
-            <com.sswdemo.views.NoScrollListView
+            <com.abt.ssw.views.NoScrollListView
                 android:id="@+id/list_view_2"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

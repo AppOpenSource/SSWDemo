@@ -18,7 +18,7 @@
             android:src="@drawable/message_img" />
     </RelativeLayout>
 
-    <com.sswdemo.views.PullToRefreshView
+    <com.abt.ssw.views.PullToRefreshView
         android:id="@+id/main_pull_refresh_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -34,6 +34,6 @@
             android:cacheColorHint="@android:color/transparent"
             android:dividerHeight="1dip" />
         
-    </com.sswdemo.views.PullToRefreshView>
+    </com.abt.ssw.views.PullToRefreshView>
 
 </LinearLayout>

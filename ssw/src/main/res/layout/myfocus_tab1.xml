@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" 
     android:background="#E8E8E8">
-    <com.sswdemo.views.PullToRefreshView
+    <com.abt.ssw.views.PullToRefreshView
         android:id="@+id/pull_to_refresh_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -17,6 +17,6 @@
         android:divider="@drawable/line1"
         android:cacheColorHint="@android:color/transparent"
         />
- </com.sswdemo.views.PullToRefreshView>
+ </com.abt.ssw.views.PullToRefreshView>
     
 </LinearLayout>

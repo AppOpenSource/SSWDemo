@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sswdemo.activitys"
+    package="com.abt.ssw.activitys"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -11,10 +11,10 @@
    <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:name="com.sswdemo.activitys.ExampleApplication">
+        android:name="com.abt.ssw.activitys.ExampleApplication">
   
         <activity
-            android:name="com.sswdemo.activitys.StartActivity"
+            android:name="com.abt.ssw.activitys.StartActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
@@ -69,7 +69,7 @@
           
         <!-- User defined.  For test only  用户自定义的广播接收器-->
         <receiver
-            android:name="com.sswdemo.activitys.MyReceiver"
+            android:name="com.abt.ssw.activitys.MyReceiver"
             android:enabled="true">
             <intent-filter>
                 <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!--Required  用户注册SDK的intent-->
@@ -87,31 +87,31 @@
         <meta-data android:name="JPUSH_CHANNEL" android:value="developer-default"/>
         <meta-data android:name="JPUSH_APPKEY" android:value="e49eec3363e5ed50574b5301" /> <!--  </>值来自开发者平台取得的AppKey-->
          <activity
-            android:name=".MerchantMessageActivity"
+            android:name="com.abt.ssw.activitys.MerchantMessageActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
          <activity
-            android:name=".SystemMessagesWebviewActivity"
+            android:name="com.abt.ssw.activitys.SystemMessagesWebviewActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.abt.ssw.activitys.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
          <activity
-            android:name=".PayforTypeActivity"
+            android:name="com.abt.ssw.activitys.PayforTypeActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />   
         <activity
-            android:name=".MainTabActivity"
+            android:name="com.abt.ssw.activitys.MainTabActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".HomeActivity"
+            android:name="com.abt.ssw.activitys.HomeActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".MyFocusActivity"
+            android:name="com.abt.ssw.activitys.MyFocusActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
@@ -123,37 +123,37 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".ServeActivity"
+            android:name="com.abt.ssw.activitys.ServeActivity"
             android:screenOrientation="portrait"
              android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".MessageActivity"
+            android:name="com.abt.ssw.activitys.MessageActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".OrderbacklogActivity"
+            android:name="com.abt.ssw.activitys.OrderbacklogActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".OrderDetailsActivity"
+            android:name="com.abt.ssw.activitys.OrderDetailsActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name="com.sswdemo.activitys.MilaMessageActivity"
+            android:name="com.abt.ssw.activitys.MilaMessageActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name="com.sswdemo.activitys.MilaMessageDetailActivity"
+            android:name="com.abt.ssw.activitys.MilaMessageDetailActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".CommunityActivity"
+            android:name="com.abt.ssw.activitys.CommunityActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".MoreActivity"
+            android:name="com.abt.ssw.activitys.MoreActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
@@ -161,99 +161,99 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".AccountInfoActivity"
+            android:name="com.abt.ssw.activitys.AccountInfoActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".ChangePasswordActivity"
+            android:name="com.abt.ssw.activitys.ChangePasswordActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".CreateFeedActivity"
+            android:name="com.abt.ssw.activitys.CreateFeedActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" 
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".ReplyCommunityFeedAcitivty"
+            android:name="com.abt.ssw.activitys.ReplyCommunityFeedAcitivty"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".MyMapActivity"
+            android:name="com.abt.ssw.activitys.MyMapActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name="com.sswdemo.activitys.MyActivity"
+            android:name="com.abt.ssw.activitys.MyActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".MerchantDetailsActivity"
+            android:name="com.abt.ssw.activitys.MerchantDetailsActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".SearchActivity"
+            android:name="com.abt.ssw.activitys.SearchActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".GoodsListActivity"
+            android:name="com.abt.ssw.activitys.GoodsListActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".DeliveryInfoActivity"
+            android:name="com.abt.ssw.activitys.DeliveryInfoActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         
         <activity
-            android:name=".ShoppingCartActivity"
+            android:name="com.abt.ssw.activitys.ShoppingCartActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name=".FeedbackActivity"
+            android:name="com.abt.ssw.activitys.FeedbackActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".AboutActivity"
+            android:name="com.abt.ssw.activitys.AboutActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".GoodDetailsActivity"
+            android:name="com.abt.ssw.activitys.GoodDetailsActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".ProductDetailsActivity"
+            android:name="com.abt.ssw.activitys.ProductDetailsActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".SubmitOrderActivity"
+            android:name="com.abt.ssw.activitys.SubmitOrderActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
-            android:name=".CompletedOrdersAcitvity"
+            android:name="com.abt.ssw.activitys.CompletedOrdersAcitvity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
           <activity
-            android:name=".SubmitOrdersInvoiceActivity"
+            android:name="com.abt.ssw.activitys.SubmitOrdersInvoiceActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name=".SubmitOrdersSuccessActivity"
+            android:name="com.abt.ssw.activitys.SubmitOrdersSuccessActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name=".SubmitOrdersMessageActivity"
+            android:name="com.abt.ssw.activitys.SubmitOrdersMessageActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name=".SubmitOrdersAddrActivity"
+            android:name="com.abt.ssw.activitys.SubmitOrdersAddrActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name=".SubmitOrdersActivity"
+            android:name="com.abt.ssw.activitys.SubmitOrdersActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
@@ -265,7 +265,7 @@
         android:targetPackage="com.sswdemo.activitys" />
     
 <permission
-        android:name="com.sswdemo.activitys.permission.JPUSH_MESSAGE"
+        android:name="com.abt.ssw.activitys.permission.JPUSH_MESSAGE"
         android:protectionLevel="signature" />
 
   <!-- Required  一些系统要求的权限，如访问网络等-->
