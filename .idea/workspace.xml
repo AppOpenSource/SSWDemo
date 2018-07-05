@@ -7,165 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="cb4fa596-d9b9-4c3f-a2be-85b2fd98847a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/AboutActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/AccountInfoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/ChangePasswordActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/CommunityActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/CompletedOrdersAcitvity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/CreateFeedActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/DeliveryInfoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/ExampleApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/ExampleUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/FeedbackActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/GoodDetailsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/GoodsListActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/HomeActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/LoginActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MainTabActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MerchantDetailsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MerchantMessageActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MessageActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MilaMessageActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MilaMessageDetailActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MoreActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MyActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MyFocusActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MyFocusTab1Fragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MyFocusTab2Fragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MyItemizedOverlay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MyMapActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MyReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/OrderDetailsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/OrderbacklogActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/PayforTypeActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/ProductDetailsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/ReplyCommunityFeedAcitivty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/SearchActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/ServeActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/ShoppingCartActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/StartActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/SubmitOrderActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/SubmitOrdersActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/SubmitOrdersAddrActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/SubmitOrdersInvoiceActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/SubmitOrdersMessageActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/SubmitOrdersSuccessActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/SystemMessagesWebviewActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/CommunityListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/CompletedOrdersAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/DeliveryInfoAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/GoodDetailsListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/GoodsListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/GradeListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/GuidePageAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/HomeGridViewAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/MessageListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/MoreListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/OrderDetailsListsAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/OrderbacklogAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/PopAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/PopNoImgAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/ReplyCommunityAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/SearchGridViewAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/ServeListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/SetMailListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/adapters/SetMailListAdapter_old.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/base/AppParameters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/AccountInfoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/AccountInfoDataBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/BusinessConcernBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/CollectProductBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/DeliveryInfoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/DeliveryInfoDataBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/GoodListsDataBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/LoginBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/MerchantDetailsBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/MerchantDetailsDataBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/MessageAccountBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/MessageContentInfoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/MessageDataInfoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/MessageInfoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/MyInfoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/MyInfoData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/MyMsgInfoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/MyMsgInfoDataBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/OrderBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/OrderDetailsBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/OrderDetailsListsBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/OrderbacklogBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/OrderbacklogDataBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/PasswordBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/ProductDetailsBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/ProductDetailsDataBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/RecommendedInfoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/RecommendedInfoDataBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/ServeListBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/ServeListDataBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/db/ShoppingCartDBOpenHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/helper/AppNonSCOKException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/helper/HttpTools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/helper/LogUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/helper/LogWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/helper/MyHttpCookies.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/helper/QHttpClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/helper/QHttpUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/helper/QNonSCOKException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/helper/QParameter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/helper/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/loadimage/ImageFileCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/loadimage/ImageGetForHttp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/loadimage/ImageMemoryCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/loadimage/LoadImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/model/ChatMsgBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/model/ChatMsgEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/model/DBOpenHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/model/DBService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/model/MoreListItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/model/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/model/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/model/ReplyCommunityItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/model/Shop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/model/ShoppingCart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/servcie/GetOrderHttpService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/servcie/LoginManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/servcie/ShoppingCartDBService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/servcie/SubmitOrderHttpService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/utils/CallPhoneUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/utils/DateFormatUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/utils/HttpUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/utils/L.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/utils/NotificationUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/utils/TestUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/AccountItemView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/BadgeView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/GoodOrderView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/MyListView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/NoScrollListView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/OrderItemView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/OrderView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/PopMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/PopMenuNoImg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/PullToRefreshView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/ScrollLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/TagsGridView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/views/ViewPager.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/SSWDemo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ssw/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ssw/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/MainActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ssw/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/res/layout/activity_account_info.xml" afterPath="$PROJECT_DIR$/ssw/src/main/res/layout/activity_account_info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/res/layout/activity_changepassword.xml" afterPath="$PROJECT_DIR$/ssw/src/main/res/layout/activity_changepassword.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/res/layout/good_detail_main.xml" afterPath="$PROJECT_DIR$/ssw/src/main/res/layout/good_detail_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/res/layout/goodslist.xml" afterPath="$PROJECT_DIR$/ssw/src/main/res/layout/goodslist.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/res/layout/mila_message.xml" afterPath="$PROJECT_DIR$/ssw/src/main/res/layout/mila_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/res/layout/more_layout.xml" afterPath="$PROJECT_DIR$/ssw/src/main/res/layout/more_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/res/layout/my_layout_content.xml" afterPath="$PROJECT_DIR$/ssw/src/main/res/layout/my_layout_content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/res/layout/myfocus_tab1.xml" afterPath="$PROJECT_DIR$/ssw/src/main/res/layout/myfocus_tab1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/res/layout/serve.xml" afterPath="$PROJECT_DIR$/ssw/src/main/res/layout/serve.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/res/layout/shouye.xml" afterPath="$PROJECT_DIR$/ssw/src/main/res/layout/shouye.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/AccountInfoBean.java" afterPath="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/AccountInfoBean.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -189,32 +32,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AboutActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/AboutActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShoppingCartDBOpenHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/db/ShoppingCartDBOpenHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountInfoBean.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccountInfoBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/AccountInfoBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommunityActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/CommunityActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-309">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangePasswordActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/ChangePasswordActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/AboutActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1961,6 +1816,7 @@
         <option value="$PROJECT_DIR$/ssw/src/main/java/com/ssw/helper/QHttpUtil.java" />
         <option value="$PROJECT_DIR$/ssw/src/main/java/com/abts/ssw/activitys/AboutActivity.java" />
         <option value="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/AboutActivity.java" />
+        <option value="$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/AccountInfoBean.java" />
       </list>
     </option>
   </component>
@@ -2114,7 +1970,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="activitys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2232,7 +2088,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1530820814761" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1530822249020" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2287,7 +2143,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1530820814761" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1530822249020" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2492,7 +2348,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1530820814762" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1530822249021" />
       </method>
     </configuration>
     <list size="1">
@@ -2539,11 +2395,19 @@
       <option name="project" value="LOCAL" />
       <updated>1530819879567</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修正包名">
+      <created>1530820895912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530820895912</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2566,7 +2430,7 @@
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977098" sideWeight="0.49676377" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -2584,40 +2448,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="整理代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理代码" />
+    <MESSAGE value="修正包名" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正包名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sswdemo/base/AppParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssw/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2738,22 +2576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/AccountInfoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/CommunityActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/DeliveryInfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -2766,14 +2588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MerchantDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2962,11 +2776,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/AboutActivity.java">
+    <entry file="file:///Volumes/Local Disc/LenovoBak/PushTeam/Temp/LDSCodecV1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        <state relative-caret-position="200">
+          <caret line="78" column="56" lean-forward="false" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Volumes/Local Disc/LenovoBak/PushTeam/LsfBuild/pushsdk_client_distribution/src/assemble/assemble.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2146">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/MerchantDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/ExampleUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/CompletedOrdersAcitvity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/AccountInfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2980,9 +2836,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/beans/AccountInfoBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/CommunityActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/ChangePasswordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssw/src/main/java/com/abt/ssw/activitys/AboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

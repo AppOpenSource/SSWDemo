@@ -17,6 +17,5 @@ public class AccountInfoBean {
 	public void setData(List<AccountInfoDataBean> data) {
 		this.data = data;
 	}
-	
-	
+
 }
